@@ -74,7 +74,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programcode/CLionProjects/MemoryFileSystem/main.c">
+		<Unit filename="D:/Programcode/CLionProjects/MemoryFileSystem/MemoryFileSystem.c">
+			<Option target="MemoryFileSystem"/>
+		</Unit>
+		<Unit filename="D:/Programcode/CLionProjects/MemoryFileSystem/MemoryFileSystem.h">
+			<Option target="MemoryFileSystem"/>
+		</Unit>
+		<Unit filename="D:/Programcode/CLionProjects/MemoryFileSystem/test.cpp">
+			<Option target="MemoryFileSystem"/>
+		</Unit>
+		<Unit filename="D:/Programcode/CLionProjects/MemoryFileSystem/test1.cpp">
 			<Option target="MemoryFileSystem"/>
 		</Unit>
 		<Unit filename="D:/Programcode/CLionProjects/MemoryFileSystem/CMakeLists.txt">

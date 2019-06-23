@@ -122,32 +122,32 @@ MemoryFileSystem/fast:
 	$(MAKE) -f CMakeFiles\MemoryFileSystem.dir\build.make CMakeFiles/MemoryFileSystem.dir/build
 .PHONY : MemoryFileSystem/fast
 
-main.obj: main.c.obj
+MemoryFileSystem.obj: MemoryFileSystem.c.obj
 
-.PHONY : main.obj
+.PHONY : MemoryFileSystem.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\MemoryFileSystem.dir\build.make CMakeFiles/MemoryFileSystem.dir/main.c.obj
-.PHONY : main.c.obj
+MemoryFileSystem.c.obj:
+	$(MAKE) -f CMakeFiles\MemoryFileSystem.dir\build.make CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.obj
+.PHONY : MemoryFileSystem.c.obj
 
-main.i: main.c.i
+MemoryFileSystem.i: MemoryFileSystem.c.i
 
-.PHONY : main.i
+.PHONY : MemoryFileSystem.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\MemoryFileSystem.dir\build.make CMakeFiles/MemoryFileSystem.dir/main.c.i
-.PHONY : main.c.i
+MemoryFileSystem.c.i:
+	$(MAKE) -f CMakeFiles\MemoryFileSystem.dir\build.make CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.i
+.PHONY : MemoryFileSystem.c.i
 
-main.s: main.c.s
+MemoryFileSystem.s: MemoryFileSystem.c.s
 
-.PHONY : main.s
+.PHONY : MemoryFileSystem.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\MemoryFileSystem.dir\build.make CMakeFiles/MemoryFileSystem.dir/main.c.s
-.PHONY : main.c.s
+MemoryFileSystem.c.s:
+	$(MAKE) -f CMakeFiles\MemoryFileSystem.dir\build.make CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.s
+.PHONY : MemoryFileSystem.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... MemoryFileSystem
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... MemoryFileSystem.obj
+	@echo ... MemoryFileSystem.i
+	@echo ... MemoryFileSystem.s
 .PHONY : help
 
 

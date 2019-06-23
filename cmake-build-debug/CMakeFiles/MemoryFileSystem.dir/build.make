@@ -56,27 +56,27 @@ include CMakeFiles/MemoryFileSystem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MemoryFileSystem.dir/flags.make
 
-CMakeFiles/MemoryFileSystem.dir/main.c.obj: CMakeFiles/MemoryFileSystem.dir/flags.make
-CMakeFiles/MemoryFileSystem.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programcode\CLionProjects\MemoryFileSystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MemoryFileSystem.dir/main.c.obj"
-	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MemoryFileSystem.dir\main.c.obj   -c D:\Programcode\CLionProjects\MemoryFileSystem\main.c
+CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.obj: CMakeFiles/MemoryFileSystem.dir/flags.make
+CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.obj: ../MemoryFileSystem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programcode\CLionProjects\MemoryFileSystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MemoryFileSystem.dir\MemoryFileSystem.c.obj   -c D:\Programcode\CLionProjects\MemoryFileSystem\MemoryFileSystem.c
 
-CMakeFiles/MemoryFileSystem.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MemoryFileSystem.dir/main.c.i"
-	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Programcode\CLionProjects\MemoryFileSystem\main.c > CMakeFiles\MemoryFileSystem.dir\main.c.i
+CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.i"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Programcode\CLionProjects\MemoryFileSystem\MemoryFileSystem.c > CMakeFiles\MemoryFileSystem.dir\MemoryFileSystem.c.i
 
-CMakeFiles/MemoryFileSystem.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MemoryFileSystem.dir/main.c.s"
-	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Programcode\CLionProjects\MemoryFileSystem\main.c -o CMakeFiles\MemoryFileSystem.dir\main.c.s
+CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.s"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Programcode\CLionProjects\MemoryFileSystem\MemoryFileSystem.c -o CMakeFiles\MemoryFileSystem.dir\MemoryFileSystem.c.s
 
 # Object files for target MemoryFileSystem
 MemoryFileSystem_OBJECTS = \
-"CMakeFiles/MemoryFileSystem.dir/main.c.obj"
+"CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.obj"
 
 # External object files for target MemoryFileSystem
 MemoryFileSystem_EXTERNAL_OBJECTS =
 
-MemoryFileSystem.exe: CMakeFiles/MemoryFileSystem.dir/main.c.obj
+MemoryFileSystem.exe: CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.obj
 MemoryFileSystem.exe: CMakeFiles/MemoryFileSystem.dir/build.make
 MemoryFileSystem.exe: CMakeFiles/MemoryFileSystem.dir/linklibs.rsp
 MemoryFileSystem.exe: CMakeFiles/MemoryFileSystem.dir/objects1.rsp

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryFileSystem.dir/main.c.obj"
+  "CMakeFiles/MemoryFileSystem.dir/MemoryFileSystem.c.obj"
   "MemoryFileSystem.pdb"
   "MemoryFileSystem.exe"
   "MemoryFileSystem.exe.manifest"

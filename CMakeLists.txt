@@ -3,4 +3,4 @@ project(MemoryFileSystem C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(MemoryFileSystem main.c)
+add_executable(MemoryFileSystem MemoryFileSystem.c MemoryFileSystem.h test.cpp test1.cpp)
